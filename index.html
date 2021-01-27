@@ -2,6 +2,8 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4401dbf3bc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <title>mysite</title>
   </head>
@@ -9,11 +11,20 @@
     <header>
       <nav class="heading">
         <h1><img class="logo" src="img/logo.png" alt="ロゴ"></h1>
+        <h1><i class="fas fa-bars ps-logo"></i></h1>
         <ul class="nav-list">
-          <li class="nav-list-item">Portfolio</li>
-          <li class="nav-list-item">Feature</li>
-          <li class="nav-list-item">Profile</li>
-          <li class="nav-list-item">Contact</li>
+          <li class="nav-list-item">
+            <a href="#explanation-heading">Portfolio</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#feature-heading">Feature</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#profile-heading">Profile</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#contact-heading">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -25,8 +36,7 @@
     </div>
     <main>
       <section class="explanation">
-        <h2 class="explanation-heading">Portfolio</h2>
-        <div class="box"></div>
+        <h2 id="explanation-heading">Portfolio</h2>
         <p class="explanation-text">
           It is along established fact that a reader will be distracted by the readable<br>
           content of a page when looking at its layout.<br>
@@ -39,6 +49,102 @@
           <div class="box4"></div>
           <div class="box5"></div>
           <div class="box6"></div>
+        </div>
+      </section>
+      <section class="feature">
+        <h2 id="feature-heading">Feature</h2>
+        <p class="feature-text">It is a long established fact that a reader will be distracted by the readable<br>
+          content of a page when looking at its layout.<br>
+          The point of using Loren Ipsum is that it has a more-or-less normal distribution of letters
+        </p>
+        <div class="feature-box">
+          <div class="feature-box1">
+            <i class="fab fa-apple fa-4x"></i>
+            <h3 class="box1-heading">Strength1</h3>
+            <p class="box1-text">Contrary to popular belief, Lorem Ipsum<br>
+              is not simply random text. It has roots<br>
+              in a piece of classical Latin literature<br>
+              from 45 BC, making it over 2000 years<br>
+              old. Richard McClintock, a Latin<br>
+              professor at Hampden-Sydney College<br>
+              in Virginia, looked up one of the more<br>
+              obscure Latin words, consectetur</p>
+          </div>
+          <div class="feature-box2">
+            <i class="fas fa-tv fa-4x"></i>
+            <h3 class="box2-heading">Strength2</h3>
+            <p class="box2-text">
+              Contrary to popular belief, Lorem Ipsum<br>
+              is not simply random text. It has roots<br>
+              in a piece of classical Latin literature<br>
+              rom 45 BC, making it over 2000 years<br>
+              old. Richard McClintock, a Latin<br>
+              professor at Hampden-Sydney College<br>
+              in Virginia, looked up one of the more<br>
+              obscure Latin words, consectetur
+            </p>
+          </div>
+          <div class="feature-box3">
+            <i class="fas fa-cogs fa-4x"></i>
+            <h3 class="box3-heading">Strength3</h3>
+            <p class="box3-text">
+              Contrary to popular belief, Lorem Ipsum<br>
+              is not simply random text. It has roots<br>
+              in a piece of classical Latin literature<br>
+              from 45 BC, making it over 2000 years<br>
+              old. Richard McClintock, a Latin<br>
+              professor at Hampden-Sydney College<br>
+              in Virginia, looked up one of the more<br>
+              obscure Latin words, consectetur
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="profile">
+        <h2 id="profile-heading">Profile</h2>
+        <p class="profile-text">It is a long established fact that a reader will be distracted by the readable<br>
+          content of a page when looking at its layout.<br>
+          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+        </p>
+        <div class="mass">
+          <div class="icon-image">
+            <img class="icon" src="img/my-icon.jpg" alt="写真">
+          </div>
+          <div class="self-introduction">
+            <h3 class="name">MyName</h3>
+            <p class="name-text">
+              Contrary to popular belief, Lorem Ipsum is not simply random<br>
+              text. It has roots in a piece of classical Latin literature from 45<br>
+              BC, making it over 2000 years old. Richard McClintock, a Latin<br>
+              professor at Hampden-Sydney College in Virginia, looked up<br>
+              one of the more obscure Latin words, consectetur
+            </p>
+            <h3 class="skill">MySkills</h3>
+            <p class="skill-text">HTML/CSS/JavaScript/JQuery/PhotoShop</p>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <h2 id="contact-heading">Contact</h2>
+        <p class="contact-text">It is a long established fact that a reader will be distracted by the readable<br>
+          content of a page when looking at its layout.<br>
+          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters<br>
+        </p>
+        <div class="contact-information">
+          <div class="sns-icon1">
+            <h3 class="mail">Mail</h3>
+            <p class="address">xxx@xxx.com</p>
+            <h3 class="tel">Tel</h3>
+            <p class="number">000-0000-0000</p>
+          </div>
+          <div class="sns-icon2">
+            <h3 class="sns">SNS</h3>
+            <div class="icon-box">
+              <p class="icon-box1"><i class="fab fa-facebook-f fa-3x"></i></p>
+              <p class="icon-box2"><i class="fab fa-twitter fa-3x"></i></p>
+              <p class="icon-box3"><i class="fab fa-instagram fa-3x"></i></p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
